@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "016-roblox-main": {
+      "root": "2016-roblox-main",
+      "framework": "nextjs"
+    },
+    "assetproxy": {
+      "root": "AssetProxy",
+      "framework": "express"
+    },
+    "assetvalidationservicev2": {
+      "root": "AssetValidationServiceV2",
+      "runtime": "go"
+    },
+    "renderer": {
+      "root": "renderer",
+      "framework": "express"
+    }
+  },
+  "rewrites": []
+}
